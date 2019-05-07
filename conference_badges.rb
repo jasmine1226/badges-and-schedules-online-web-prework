@@ -15,7 +15,7 @@ end
 def assign_rooms(namelist, index)
   room_assignments = []
   namelist.each do |name|
-    room_assignments.push("Hello, #{name}! You'll be assigned to room #{index}!")
+    room_assignments.push("Hello, #{name}! You'll be assigned to room #{index+1}!")
   end
   return room_assignments
 end
