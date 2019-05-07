@@ -9,4 +9,5 @@ def batch_badge_creator(namelist)
   namelist.each do |name|
     batch_badge.push("Hello, my name is #{name}.")
   end
+  return batch_badge
 end
